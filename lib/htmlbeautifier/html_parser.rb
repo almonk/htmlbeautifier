@@ -11,8 +11,7 @@ module HtmlBeautifier
       address | article | aside | audio | blockquote | canvas | dd | dir | div |
       dl | dt | fieldset | figcaption | figure | footer | form | h1 | h2 | h3 |
       h4 | h5 | h6 | header | hr | li | menu | noframes | noscript | ol | p |
-      pre | section | table | tbody | td | tfoot | th | thead | tr | ul | video
-    )}mix
+      pre | section | table | tbody | td | tfoot | th | thead | tr | ul | video | avalon-button | avalon-icon | avalon-input | avalon-message | avalon-modal | avalon-page-header | avalon-popover | avalon-slide-panel}mix
 
     MAPPINGS = [
       [%r{(<%-?=?)(.*?)(-?%>)}om,
